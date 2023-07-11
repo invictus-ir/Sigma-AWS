@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'guardduty.amazonaws.com' AND eventName = 'CreateIPSet')

@@ -1,0 +1,1 @@
+index=* (eventSource="ses.amazonaws.com" AND eventName="DeleteIdentity")

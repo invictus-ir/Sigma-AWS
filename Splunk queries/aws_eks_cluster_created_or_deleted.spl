@@ -1,0 +1,1 @@
+index=* (eventSource="eks.amazonaws.com" AND (eventName="CreateCluster" OR eventName="DeleteCluster"))

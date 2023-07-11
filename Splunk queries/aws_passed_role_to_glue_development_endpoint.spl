@@ -1,0 +1,1 @@
+index=* (eventSource="glue.amazonaws.com" AND (eventName="CreateDevEndpoint" OR eventName="DeleteDevEndpoint" OR eventName="UpdateDevEndpoint"))

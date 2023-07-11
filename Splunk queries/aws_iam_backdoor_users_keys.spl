@@ -1,0 +1,1 @@
+index=* ((eventSource="iam.amazonaws.com" AND eventName="CreateAccessKey") AND NOT userIdentity.arn="*responseElements.accessKey.userName*") | table userIdentity.arn,responseElements.accessKey.userName,errorCode,errorMessage

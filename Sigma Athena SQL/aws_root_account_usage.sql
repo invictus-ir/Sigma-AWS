@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (identity.user.type = 'Root' AND NOT (unmapped['eventType'] = 'AwsServiceEvent'))

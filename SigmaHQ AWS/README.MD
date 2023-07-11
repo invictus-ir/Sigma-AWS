@@ -1,0 +1,1 @@
+The Sigma rules in this repository are copied from the [SigmaHQ repository](https://github.com/SigmaHQ/sigma)

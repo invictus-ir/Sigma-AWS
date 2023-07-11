@@ -1,0 +1,1 @@
+index=* (eventSource="ecs.amazonaws.com" AND (eventName="DescribeTaskDefinition" OR eventName="RegisterTaskDefinition" OR eventName="RunTask") AND requestParameters.containerDefinitions.command="*$AWS_CONTAINER_CREDENTIALS_RELATIVE_URI*")

@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'ec2.amazonaws.com' AND eventName = 'ModifySnapshotAttribute')

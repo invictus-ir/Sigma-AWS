@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'config.amazonaws.com' AND eventName IN ('DeleteDeliveryChannel', 'StopConfigurationRecorder'))

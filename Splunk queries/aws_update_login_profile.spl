@@ -1,0 +1,1 @@
+index=* ((eventSource="iam.amazonaws.com" AND eventName="UpdateLoginProfile") AND NOT userIdentity.arn="*requestParameters.userName*") | table userIdentity.arn,requestParameters.userName,errorCode,errorMessage

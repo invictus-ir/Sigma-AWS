@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'eks.amazonaws.com' AND eventName IN ('CreateCluster', 'DeleteCluster'))

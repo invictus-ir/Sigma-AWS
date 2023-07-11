@@ -1,0 +1,1 @@
+index=* (eventSource="cloudtrail.amazonaws.com" AND (eventName="StopLogging" OR eventName="UpdateTrail" OR eventName="DeleteTrail"))

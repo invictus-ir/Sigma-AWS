@@ -1,0 +1,1 @@
+index=* (eventSource="elasticache.amazonaws.com" AND eventName="CreateCacheSecurityGroup")

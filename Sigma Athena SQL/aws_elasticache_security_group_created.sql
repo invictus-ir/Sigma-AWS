@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'elasticache.amazonaws.com' AND eventName = 'CreateCacheSecurityGroup')
