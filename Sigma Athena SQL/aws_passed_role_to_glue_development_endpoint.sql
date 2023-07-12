@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'glue.amazonaws.com' AND eventName IN ('CreateDevEndpoint', 'DeleteDevEndpoint', 'UpdateDevEndpoint'))

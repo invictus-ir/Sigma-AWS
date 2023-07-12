@@ -1,0 +1,1 @@
+index=* (eventSource="securityhub.amazonaws.com" AND (eventName="BatchUpdateFindings" OR eventName="DeleteInsight" OR eventName="UpdateFindings" OR eventName="UpdateInsight")) | table sourceIPAddress,userIdentity.arn

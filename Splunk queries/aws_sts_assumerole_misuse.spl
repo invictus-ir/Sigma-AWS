@@ -1,0 +1,1 @@
+index=* (userIdentity.type="AssumedRole" AND userIdentity.sessionContext.sessionIssuer.type="Role")

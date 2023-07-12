@@ -1,0 +1,1 @@
+index=* (eventSource="config.amazonaws.com" AND (eventName="DeleteDeliveryChannel" OR eventName="StopConfigurationRecorder"))

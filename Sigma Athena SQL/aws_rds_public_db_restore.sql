@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'rds.amazonaws.com' AND responseElements.publiclyAccessible = 'true' AND eventName = 'RestoreDBInstanceFromDBSnapshot')

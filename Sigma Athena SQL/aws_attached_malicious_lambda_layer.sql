@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'lambda.amazonaws.com' AND eventName LIKE 'UpdateFunctionConfiguration%' ESCAPE '\')

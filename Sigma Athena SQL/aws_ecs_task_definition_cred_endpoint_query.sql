@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'ecs.amazonaws.com' AND eventName IN ('DescribeTaskDefinition', 'RegisterTaskDefinition', 'RunTask') AND requestParameters.containerDefinitions.command LIKE '%$AWS\_CONTAINER\_CREDENTIALS\_RELATIVE\_URI%' ESCAPE '\')

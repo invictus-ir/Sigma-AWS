@@ -1,0 +1,3 @@
+SELECT eventSource,sourceIPAddress, COUNT() FROM cloudtrail_logs_aws_cloudtrail_logs_218007301253_964f3153 WHERE ( eventName IN ('ListBuckets', 'GetBucketCors', 'GetBucketInventoryConfiguration', 'GetBucketPublicAccessBlock', 'GetBucketMetricsConfiguration', 'GetBucketPolicy', 'GetBucketTagging') AND eventSource = 's3.amazonaws.com') GROUP BY sourceipaddress,eventSource HAVING COUNT() > 5
+
+geen detectie

@@ -1,0 +1,1 @@
+index=* (eventSource="elasticache.amazonaws.com" AND (eventName="DeleteCacheSecurityGroup" OR eventName="AuthorizeCacheSecurityGroupIngress" OR eventName="RevokeCacheSecurityGroupIngress" OR eventName="AuthorizeCacheSecurityGroupEgress" OR eventName="RevokeCacheSecurityGroupEgress"))

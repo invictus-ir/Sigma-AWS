@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE ((eventSource = 's3.amazonaws.com' AND eventName = 'ListBuckets') AND NOT (type = 'AssumedRole'))

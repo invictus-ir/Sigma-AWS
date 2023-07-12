@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'route53.amazonaws.com' AND eventName = 'DisableDomainTransferLock')

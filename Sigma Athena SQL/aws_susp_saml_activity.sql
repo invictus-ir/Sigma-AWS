@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE ((eventSource = 'sts.amazonaws.com' AND eventName = 'AssumeRoleWithSAML') OR (eventSource = 'iam.amazonaws.com' AND eventName = 'UpdateSAMLProvider'))

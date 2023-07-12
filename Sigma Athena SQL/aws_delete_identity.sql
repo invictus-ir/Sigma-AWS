@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'ses.amazonaws.com' AND eventName = 'DeleteIdentity')

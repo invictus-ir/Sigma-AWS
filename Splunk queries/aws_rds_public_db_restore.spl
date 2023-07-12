@@ -1,0 +1,1 @@
+index=* (eventSource="rds.amazonaws.com" AND responseElements.publiclyAccessible="true" AND eventName="RestoreDBInstanceFromDBSnapshot")

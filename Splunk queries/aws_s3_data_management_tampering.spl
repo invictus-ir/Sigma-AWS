@@ -1,0 +1,1 @@
+index=* (eventSource="s3.amazonaws.com" AND (eventName="PutBucketLogging" OR eventName="PutBucketWebsite" OR eventName="PutEncryptionConfiguration" OR eventName="PutLifecycleConfiguration" OR eventName="PutReplicationConfiguration" OR eventName="ReplicateObject" OR eventName="RestoreObject"))

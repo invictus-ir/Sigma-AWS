@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE (eventSource = 'elasticfilesystem.amazonaws.com' AND eventName = 'DeleteFileSystem')

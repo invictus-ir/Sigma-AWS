@@ -1,0 +1,1 @@
+SELECT * FROM cloudtrail_logs WHERE ((eventSource = 'iam.amazonaws.com' AND eventName = 'CreateAccessKey') AND NOT (userIdentity.arn LIKE '%responseElements.accessKey.userName%'))

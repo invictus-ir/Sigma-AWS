@@ -1,0 +1,3 @@
+SELECT eventSource, eventName, sourceIPAddress, COUNT() FROM cloudtrail_logs_aws_cloudtrail_logs_218007301253_964f3153 WHERE ( eventName LIKE 'list%' ) GROUP BY sourceipaddress,eventSource, eventName HAVING COUNT() > 50
+
+no results
